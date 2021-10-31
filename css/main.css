@@ -1115,6 +1115,7 @@ body.no-scroll {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 2em;
   padding-bottom: 3em;
 }
 

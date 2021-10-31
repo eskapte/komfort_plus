@@ -61,13 +61,14 @@ navBtns.forEach(btn => {
         if (navLink.dataset.goto && document.querySelector(navLink.dataset.goto)) {
             const gotoSection = document.querySelector(navLink.dataset.goto);
             const gotoBlockValue = gotoSection.getBoundingClientRect().top + pageYOffset;
-            console.log(gotoBlockValue);
 
             // close the menu
-            document.querySelector("body").classList.toggle("no-scroll");
-            mainNav.classList.toggle("nav-show");
-            headerContacts.classList.toggle("contacts-show");
-
+            if (document.querySelector("body").classList.contains("no-scroll")) {
+                document.querySelector("body").classList.toggle("no-scroll");
+                mainNav.classList.toggle("nav-show");
+                headerContacts.classList.toggle("contacts-show");
+            }
+            
             window.scrollTo({
                 top: gotoBlockValue,
                 behavior: "smooth"
