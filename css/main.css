@@ -932,7 +932,7 @@ body.no-scroll {
   .category .desc h2 {
     font-size: 1.2em;
   }
-  .category .desc p {
+  .category .desc p, .category .desc li {
     margin-bottom: 0;
     width: 100%;
     text-align: justify;
