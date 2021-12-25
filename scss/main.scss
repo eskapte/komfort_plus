@@ -1,3 +1,48 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("../fonts/Montserrat-Regular.ttf");
+  
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("../fonts/Montserrat-Italic.ttf");
+  
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("../fonts/Montserrat-Medium.ttf");
+  
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("../fonts/Montserrat-SemiBold.ttf");
+  
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("../fonts/Montserrat-Bold.ttf");
+  
+    font-weight: 700;
+    font-style: normal;
+  }
+
 :root {
     font-size: 18px;
     font-family: 'Montserrat';
@@ -329,15 +374,11 @@ a {
     .header-contacts {
         span::before {display: none!important;}
         span {font-size: 14px;}
-        grid-column: 8 / 11;
+        grid-column: 8 / 14;
         justify-self: center;
     }
 
     .page-header { height: 500px; }
-}
-
-@media (max-width: 830px) {
-    .offer + img {top: 30%; left: 10%;}
 }
 
 @media (max-width: 720px) {
@@ -355,8 +396,6 @@ a {
     .offer + img { display: none; }
 
     .offer { grid-column: 1/8;}
-
-    // .main-nav, .header-contacts { display: none; }
 
     .main-nav {
         position: fixed;
@@ -461,8 +500,8 @@ body.no-scroll {
         flex-direction: column;
         align-items: center;
 
-        h1 {
-            padding-top: 1em;
+        h2 {
+            padding-top: 0.7em;
             font-weight: 600;
             font-size: 30px;
             line-height: 44px;
@@ -545,7 +584,7 @@ body.no-scroll {
         flex-direction: column;
         justify-content: space-between;
 
-        h2 { margin: 0; }
+        h3 { margin: 0; font-size: 1.5em}
     }
 
     .images {
@@ -593,7 +632,7 @@ body.no-scroll {
     .category {
         height: 320px;
         
-        h2 {font-size: 1.3em;}
+        h3 {font-size: 1.3em;}
         
         .images a {
             height: 100px;
@@ -614,7 +653,7 @@ body.no-scroll {
 @media (max-width: 860px) {
     .category {
         height: 270px;
-        .desc h2 {font-size: 1.1em;}
+        .desc h3 {font-size: 1.1em;}
         .desc p {font-size: 0.8em;}
         .images a {height: 80px;}
     }
@@ -636,7 +675,7 @@ body.no-scroll {
             max-width: none;
             align-items: start;
 
-            h2 {font-size: 1.2em;}
+            h3 {font-size: 1.2em;}
 
             p, li {
                 margin-bottom: 0; 
@@ -973,7 +1012,7 @@ body.no-scroll {
             & > span { font-size: 10px; }
             .footer-contacts span { font-size: 12px;}
             a {
-                font-size: 12px;
+                font-size: 11px;
                 a::before {width: 20px!important; height: 20px!important;}
             }
         }

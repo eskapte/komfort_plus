@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   font-size: 18px;
   font-family: 'Montserrat';
@@ -469,8 +504,8 @@ a {
   }
   .header-contacts {
     -ms-grid-column: 8;
-    -ms-grid-column-span: 3;
-    grid-column: 8 / 11;
+    -ms-grid-column-span: 6;
+    grid-column: 8 / 14;
     -ms-grid-column-align: center;
         justify-self: center;
   }
@@ -482,13 +517,6 @@ a {
   }
   .page-header {
     height: 500px;
-  }
-}
-
-@media (max-width: 830px) {
-  .offer + img {
-    top: 30%;
-    left: 10%;
   }
 }
 
@@ -668,8 +696,8 @@ body.no-scroll {
           align-items: center;
 }
 
-.work-photos--container h1 {
-  padding-top: 1em;
+.work-photos--container h2 {
+  padding-top: 0.7em;
   font-weight: 600;
   font-size: 30px;
   line-height: 44px;
@@ -802,8 +830,9 @@ body.no-scroll {
           justify-content: space-between;
 }
 
-.category .desc h2 {
+.category .desc h3 {
   margin: 0;
+  font-size: 1.5em;
 }
 
 .category .images {
@@ -864,7 +893,7 @@ body.no-scroll {
   .category {
     height: 320px;
   }
-  .category h2 {
+  .category h3 {
     font-size: 1.3em;
   }
   .category .images a {
@@ -889,7 +918,7 @@ body.no-scroll {
   .category {
     height: 270px;
   }
-  .category .desc h2 {
+  .category .desc h3 {
     font-size: 1.1em;
   }
   .category .desc p {
@@ -929,7 +958,7 @@ body.no-scroll {
         -ms-flex-align: start;
             align-items: start;
   }
-  .category .desc h2 {
+  .category .desc h3 {
     font-size: 1.2em;
   }
   .category .desc p, .category .desc li {
@@ -1477,7 +1506,7 @@ body.no-scroll {
     font-size: 12px;
   }
   .page-footer__container a {
-    font-size: 12px;
+    font-size: 11px;
   }
   .page-footer__container a a::before {
     width: 20px !important;
