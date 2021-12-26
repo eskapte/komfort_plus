@@ -1077,7 +1077,7 @@ body.no-scroll {
   padding-bottom: 3em;
 }
 
-.reasons h1 {
+.reasons h2 {
   margin-top: 1.5em;
 }
 
@@ -1103,8 +1103,8 @@ body.no-scroll {
 }
 
 @media (max-width: 1120px) {
-  .reasons h1 {
-    font-size: 1.2em;
+  .reasons h2 {
+    font-size: 1.3em;
   }
 }
 
@@ -1148,7 +1148,7 @@ body.no-scroll {
   padding-bottom: 3em;
 }
 
-.contacts h1 {
+.contacts h2 {
   margin: 0;
 }
 
