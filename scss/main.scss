@@ -1,47 +1,52 @@
 @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-      url("../fonts/Montserrat-Regular.ttf");
+      url("../fonts/Montserrat-Regular.woff2");
   
     font-weight: 400;
     font-style: normal;
-  }
+    font-display: swap;
+}
   
-  @font-face {
+@font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-      url("../fonts/Montserrat-Italic.ttf");
-  
+        url("../fonts/Montserrat-Italic.woff2");
+
     font-weight: 400;
     font-style: italic;
-  }
-  
-  @font-face {
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-      url("../fonts/Montserrat-Medium.ttf");
-  
+        url("../fonts/Montserrat-Medium.woff2");
+
     font-weight: 500;
     font-style: normal;
-  }
-  
-  @font-face {
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-      url("../fonts/Montserrat-SemiBold.ttf");
-  
+        url("../fonts/Montserrat-SemiBold.woff2");
+
     font-weight: 600;
     font-style: normal;
-  }
-  
-  @font-face {
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-      url("../fonts/Montserrat-Bold.ttf");
-  
+        url("../fonts/Montserrat-Bold.woff2");
+
     font-weight: 700;
     font-style: normal;
-  }
+    font-display: swap;
+}
 
 :root {
     font-size: 18px;
@@ -55,6 +60,7 @@ $bg-color: #61B9C5;
 body {
     overflow-x: hidden;
     margin: 0;
+    background-color: $bg-color;
 }
 
 a {

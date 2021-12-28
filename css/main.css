@@ -1,36 +1,41 @@
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/Montserrat-Regular.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-Regular.woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/Montserrat-Italic.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-Italic.woff2");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/Montserrat-Medium.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-Medium.woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/Montserrat-SemiBold.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-SemiBold.woff2");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/Montserrat-Bold.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-Bold.woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -42,6 +47,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
+  background-color: #61B9C5;
 }
 
 a {
