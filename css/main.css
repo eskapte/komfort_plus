@@ -1450,7 +1450,7 @@ body.no-scroll {
   }
 }
 
-.page-footer__container span {
+.page-footer__container span:not(#current-year) {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;

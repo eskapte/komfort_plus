@@ -9,9 +9,15 @@ const navBtns = document.querySelectorAll(".main-nav a");
 const menuBurger = document.querySelector(".menu-burger");
 const mainNav = document.querySelector("nav.main-nav");
 const headerContacts = document.querySelector(".header-contacts");
+const currentYear = document.querySelector("#current-year");
 
-let   isOpen = false;
-let   isFirst = true;
+let isOpen = false;
+let isFirst = true;
+
+if (currentYear) {
+    const year = new Date().getFullYear();
+    currentYear.textContent = year;
+}
 
 showMoreBtn.addEventListener("click", evt => {
 
