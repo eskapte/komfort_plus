@@ -147,7 +147,6 @@ a {
   font-weight: 500;
   font-size: 24px;
   transition: color 0.2s ease;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 1px;
@@ -187,7 +186,6 @@ a {
   transition: border-color 0.2s ease;
   text-decoration: none;
   border-bottom: 3px solid #6AC6C1;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
@@ -202,7 +200,6 @@ a {
   text-decoration: none;
   padding: 0.5em 2em;
   background-color: #0796DA;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   border-radius: 20px;
@@ -446,7 +443,6 @@ a {
     transition: 0.3s left ease-in-out;
   }
   .main-nav a {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     font-size: 22px;
@@ -461,7 +457,6 @@ a {
   .header-contacts {
     z-index: 11;
     position: fixed;
-    min-width: -webkit-max-content;
     min-width: -moz-max-content;
     min-width: max-content;
     left: 111%;
@@ -553,7 +548,6 @@ body.no-scroll {
   font-weight: 500;
   font-size: 1.2em;
   height: 1.5em;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   cursor: pointer;
@@ -753,7 +747,6 @@ body.no-scroll {
 .more-photos {
   margin-top: 20px;
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: #539BA9;

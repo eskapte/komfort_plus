@@ -66,7 +66,7 @@ navBtns.forEach(btn => {
         const navLink = evt.target;
         if (navLink.dataset.goto && document.querySelector(navLink.dataset.goto)) {
             const gotoSection = document.querySelector(navLink.dataset.goto);
-            const gotoBlockValue = gotoSection.getBoundingClientRect().top + pageYOffset;
+            const gotoBlockValue = gotoSection.getBoundingClientRect().top + scrollY;
 
             // close the menu
             if (document.querySelector("body").classList.contains("no-scroll")) {
