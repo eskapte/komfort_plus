@@ -636,12 +636,11 @@ body.no-scroll {
   border-radius: 3%;
 }
 
-.category:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
 .category.hidden {
   display: none;
+}
+.category:nth-child(odd) {
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 1370px) {

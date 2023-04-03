@@ -608,11 +608,12 @@ body.no-scroll {
     }
 }
 
-.category:nth-child(odd) {
-    flex-direction: row-reverse;
+.category {
+    &.hidden {display: none;}
+    &:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
 }
-
-.category.hidden {display: none;}
 
 @media (max-width: 1370px)
 {

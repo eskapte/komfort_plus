@@ -1,7 +1,7 @@
 "use strict"
 
 const showMoreBtn = document.querySelector("#show-more-btn");
-const hiddenCategories = document.querySelectorAll(".category:nth-last-child(-n + 7)");
+const hiddenCategories = document.querySelectorAll(".category.hidden");
 const hiddenImages = document.querySelectorAll("img[data-src]");
 const categoriesBlock = document.querySelector(".work-photos");
 const upBtn = document.querySelector("#up-btn");
@@ -20,7 +20,6 @@ if (currentYear) {
 }
 
 showMoreBtn.addEventListener("click", evt => {
-
     if (isFirst)
         hiddenImages.forEach(img => img.setAttribute("src", img.getAttribute("data-src")));
     isFirst = false;
