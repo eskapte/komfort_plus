@@ -68,6 +68,12 @@ a {
     color: white;
 }
 
+a.single-link {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .page-header {
     height: 775px;
     width: 100%;
@@ -75,6 +81,20 @@ a {
     background-size: cover;
     margin: 0;
     position: relative;
+}
+
+.videos-container {
+    max-width: 1290px;
+    margin: 0 auto;
+
+    .videos__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    @media (max-width:1370px) {
+        padding: 0 5%;
+    }
 }
 
 .header-container {
